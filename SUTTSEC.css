@@ -1,0 +1,346 @@
+@font-face {
+    font-family: 'Font2';
+    src: url('/Users/siddharthagarwal/Desktop/code_projects/linux-libertine-cdnfonts 2/LinLibertine_Bd-4.0_.2_.ttf') format('truetype');
+    
+}
+
+
+*{
+    margin : 0px;
+    padding : 0px;
+    list-style: none;
+    overflow: scrolls;
+    background-color: white;
+}
+
+.head{
+    text-align: center;
+    margin-top: 4%;
+    
+}
+
+.head h1{
+    font-family: 'Font2';
+    
+}
+
+.lang{
+    margin : 1vw;
+    padding : 1vw;
+}
+
+.body{
+    position: relative;
+      top: 0;
+      left: 0;
+    width: 100vw;
+    height: 500px;
+    background-color: white;
+
+}
+
+
+.img{
+    position: absolute;
+      top: 33%;
+      left: 28%;
+     
+     
+}
+
+.img img{
+    width: 200px;
+     height: 180px;
+     margin-left: auto;
+      margin-right: auto;
+}
+
+.lang1{
+    position: absolute ;
+      top: 20%;
+      left: 10%;
+      text-align: center;
+      
+}
+
+.box h4{
+    color: #0050d1;
+}
+
+.box p{
+    color: grey;
+}
+
+.lang2{
+    position: absolute;
+     top: 18%;
+     left: 65%;
+     text-align: center;
+    }
+
+.lang3{
+    position: absolute;
+      top: 33%;
+      left: 1%;
+      text-align: center;
+    }    
+
+.lang4{
+    position: absolute;
+         top: 33%;
+         left: 73%;
+         text-align: center;
+}
+
+.lang5{
+    position: absolute;
+         top: 48%;
+         left: -2%;
+         text-align: center;
+}
+
+.lang6{
+    position: absolute;
+         top: 48%;
+         left: 77%;
+         text-align: center;
+}
+
+
+.body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    
+}
+
+.lang7{
+    position: absolute;
+         top: 61%;
+         left: 6%;
+         text-align: center;
+}
+
+.lang8{
+    position: absolute;
+         top: 61%;
+         left: 73%;
+         text-align: center;
+}
+
+.lang9{
+    position: absolute;
+         top: 73%;
+         left: 14%;
+         text-align: center;
+}
+
+.lang10{
+    position: absolute;
+         top: 75%;
+         left: 60%;
+         text-align: center;
+         
+}
+
+.fclum{
+    margin:2%;
+    padding:2%;
+}
+
+.sclum{
+    margin:2%;
+    padding:2%;
+}
+
+.tclum{
+    text-align:top;
+    margin:2%;
+    padding:2%;
+}
+
+.fclum{
+    text-align:top;
+    margin:2%;
+    padding:2%;
+}
+
+.siclum{
+    text-align:top;
+    margin:2%;
+    padding:2%;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 500px;
+    border:1px solid #eaeaea;
+    outline:none;
+}
+input:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+input:focus{
+    border-color:#4d90fe;
+}
+
+input[type="submit"] {
+    border-radius: 2px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    cursor: default;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100px;
+    padding: 0 16px;
+    height:36px;
+}
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+.main{
+    position: absolute;
+    top: 64%;
+    left: 10%;
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+    .img img{
+        width: 50px;
+         height: 50px;
+         margin-left: auto;
+          margin-right: auto;
+    }
+     
+    .head{
+        position: absolute;
+        top: 2%;
+        left: 30%;
+    }
+    
+    .img{
+        position: absolute;
+          top: 7%;
+          left: 17%;
+         
+    }
+
+    input{
+        border: none;
+        padding: 10px;
+        margin: 10px;
+        height: 20px;
+        width: 200px;
+        border:1px solid #eaeaea;
+        outline:none;
+    }
+
+    .main{
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+
+
+    
+
+
+
+    .lang1{
+        position: absolute ;
+          top: 33%;
+          left: 6%;
+          text-align: center;
+          font-size: 13px;
+          
+    }
+    
+    .lang2{
+        position: absolute;
+         top: 33%;
+         left: 36%;
+         text-align: center;
+         font-size: 13px;
+        }
+    
+    .lang3{
+        position: absolute;
+          top: 33%;
+          left: 64%;
+          text-align: center;
+          font-size: 13px;
+        }    
+    
+    .lang4{
+        position: absolute;
+             top: 43%;
+             left: 5%;
+             text-align: center;
+             font-size: 13px;
+    }
+    
+    .lang5{
+        position: absolute;
+             top: 43%;
+             left: 35%;
+             text-align: center;
+             font-size: 13px;
+    }
+    
+    .lang6{
+        position: absolute;
+             top: 43%;
+             left: 63%;
+             text-align: center;
+             font-size: 13px;
+    }
+    
+    
+    
+    
+    .lang7{
+        position: absolute;
+             top: 53%;
+             left: 6%;
+             text-align: center;
+             font-size: 13px;
+    }
+    
+    .lang8{
+        position: absolute;
+             top: 53%;
+             left: 35%;
+             text-align: center;
+             font-size: 13px;
+    }
+    
+    .lang9{
+        position: absolute;
+             top: 53%;
+             left: 63%;
+             text-align: center;
+             font-size: 13px;
+    }
+    
+    .lang10{
+        position: absolute;
+             top: 63%;
+             left: 6%;
+             text-align: center;
+             font-size: 13px;
+    }
+    
+}
+
